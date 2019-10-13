@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}   
+body{
+    background-image: url(../Images/black-background-9.jpg);
+    background-size: cover;
+    background-position: 20%;
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 120;
+    left: 200;
+    display: flex;
+    background: rgba(0, 0, 0, 0.75);
+    border-top-left-radius: 147px;
+    border-bottom-left-radius: 147px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.photo img{
+    display: inline-block;
+    height: 300px;
+    widows: 300px;
+    border-radius: 50%;
+}
+.content .info{
+    padding: 20px 10px;
+    position: relative;
+}
+.content .info .name{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transform: translateX(-25px);
+}
+.content .info .titel{
+    text-shadow: 2px 2px #fff;
+}
+.content .info .contact{
+    position: absolute;
+    right: 35;
+    top: 90;
+    display: flex;
+    width: 160px;
+}
+.content .info .contact .icons{
+    display: flex;
+    flex-direction: column;
+}
+.content .info .contact .icons i{
+    font-size: 23px;
+    padding-top: 7px;
+    color: white;   
+}
+.content .info .contact .fa-facebook{
+    margin-top: 10px
+}
+.content .info .contact .fa-envelope-open{
+    margin-top: 6px;
+}
+.content .info .contact .data{
+    display: flex;
+    flex-direction: column;
+}
+.content .info .contact .data span{
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.content .info .contact a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    padding-top: -5px;
+}
+.content .info .contact a:hover{
+    font-weight: bold;
+}
+.content .info .box{
+    display: flex;
+    margin-top: 20px;
+}
+.content .info .box .resum{
+    background-size: cover;
+    margin-left: 20px;
+    height: 130px;
+    width: 110px;
+}
+.content .info .box .projects{
+    background-size: cover;
+    margin-left: 40px;
+    height: 130px;
+    width: 180px;
+}
+.content .info .box button{
+    border: 0;
+    font-weight: bold;
+    background: transparent;
+}   
+.content .info .box .my-resum{
+    width: 110px;
+}
+.content .info .box a{
+    text-decoration: none;
+    color: white;
+}
+.content .info .box .my-project{
+    width: 180px;
+}
+.content .info .box .projects a{
+    height: 130px;
+    width: 180px;
+}

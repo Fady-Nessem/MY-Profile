@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}   
+body{
+    background-image: url(../Images/black-background-9.jpg);
+    background-size: cover;
+    background-position: 20%;
+    position: relative;
+    margin: auto;
+}
+
+.container{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    left: 0;
+    background: transparent;
+}
+.container .templetes{
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.container .templetes .temp{
+    /* background: black; */
+    /* height: 100px; */
+}
